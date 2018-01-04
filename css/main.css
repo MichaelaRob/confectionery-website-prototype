@@ -224,12 +224,16 @@ footer p {
     margin-bottom: 2rem;
   }
 
-  .ingredients-box {
-    max-width: 40em;
+  h3 {
+    margin-top: 0;
   }
 
   .makers-box {
     max-width: 40em;
+  }
+
+  .ingredients-box {
+    max-width 40em;
   }
 }
 
@@ -257,16 +261,9 @@ footer p {
     margin-bottom: 0;
   }
 
-  .ingredients-box {
+  .main-box {
     margin: auto;
-    width: 45%;
-    float: left;
     margin-bottom: 2rem;
-  }
-
-  .makers-box {
-    float: right;
-    width: 45%;
   }
 }
 
@@ -285,6 +282,17 @@ footer p {
   ul li {
     width: 25%;
     float: left;
+  }
+  .ingredients-box {
+    margin: auto;
+    width: 45%;
+    float: left;
+    margin-bottom: 2rem;
+  }
+
+  .makers-box {
+    float: right;
+    width: 45%;
   }
 
   .img-ingredients1,
