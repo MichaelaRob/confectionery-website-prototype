@@ -28,6 +28,7 @@ body {
 .img-flex {
   width: 100%;
   display: block;
+  padding-bottom: 0;
 }
 
 h1 {
@@ -90,7 +91,8 @@ main {
   margin: .5rem;
 }
 
-h3 {
+h3,
+dt {
   font-family: 'Pacifico', cursive;
   color: #333;
   font-size: 1.5rem;
@@ -144,6 +146,25 @@ img {
   padding-bottom: 3rem;
 }
 
+.hours {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+dd {
+  display: inline-block;
+  margin-left: 0;
+}
+
+dt {
+  display: inline-block;
+  margin-top: 0;
+}
+
+footer p {
+  padding-left: 1rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -172,10 +193,4 @@ img {
   p {
     max-width: 25em;
   }
-
-
-
-  }
-  }
-/**fix h2 main **/
 }
