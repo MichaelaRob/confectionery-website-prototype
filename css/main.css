@@ -75,12 +75,12 @@ h2 {
   font-family: 'Pacifico', cursive;
   margin: .5rem;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: #333;
 
 }
 
-p {
+.try {
   background-color: #fff;
   padding: .7rem;
   border-radius: .7rem;
@@ -95,11 +95,26 @@ h3 {
   color: #333;
   font-size: 1.5rem;
   margin: .5rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .ingredients {
   list-style-type: circle;
+}
+
+.makers {
+  text-align: center;
+}
+
+.img-ingredients1,
+.img-ingredients2 {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+.button {
+  text-align: center;
 }
 
 .button a {
@@ -125,6 +140,10 @@ h3 {
   border-color: #ff33cc;
 }
 
+img {
+  padding-bottom: 3rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -146,8 +165,16 @@ h3 {
     text-align: center;
   }
 
-  h2 {
-    padding-top: 2rem;
+  .nav {
+    overflow: hidden;
+  }
+
+  p {
+    max-width: 25em;
+  }
+
+
+
   }
   }
 /**fix h2 main **/
