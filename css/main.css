@@ -275,8 +275,12 @@ footer p {
     font-size: 130%;
   }
 
-  .img-ingredients1,
-  .img-ingredients2 {
+  .img-ingredients1 {
+    margin-left: auto;
+  }
 
+  .img-ingredients2 {
+    margin-right: auto
+  }
 
 }
