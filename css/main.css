@@ -102,6 +102,10 @@ dt {
   margin-top: 1.5rem;
 }
 
+.main-box {
+  display: inline-block;
+}
+
 .ingredients {
   list-style-type: circle;
 }
@@ -110,6 +114,7 @@ dt {
   border-style: dashed;
   border-color: #333;
   margin-bottom: 3rem;
+  padding: 1rem;
 }
 
 .ingredients-box h3 {
@@ -168,6 +173,7 @@ img {
 .hours {
   font-size: 2rem;
   text-decoration: underline;
+  clear: both;
 }
 
 dd {
@@ -215,12 +221,15 @@ footer p {
 
   .try {
     margin: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .ingredients-box {
-    margin: auto;
-    max-width: 25em;
+    max-width: 40em;
+  }
+
+  .makers-box {
+    max-width: 40em;
   }
 }
 
@@ -238,6 +247,26 @@ footer p {
 
   h1 {
     font-size: 4rem;
+  }
+
+  .makers {
+    margin: 0;
+  }
+
+  .makers-p {
+    margin-bottom: 0;
+  }
+
+  .ingredients-box {
+    margin: auto;
+    width: 45%;
+    float: left;
+    margin-bottom: 2rem;
+  }
+
+  .makers-box {
+    float: right;
+    width: 45%;
   }
 }
 
@@ -273,14 +302,6 @@ footer p {
 
   html {
     font-size: 130%;
-  }
-
-  .img-ingredients1 {
-    margin-left: auto;
-  }
-
-  .img-ingredients2 {
-    margin-right: auto
   }
 
 }
