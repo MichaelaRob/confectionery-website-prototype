@@ -289,8 +289,11 @@ footer {
   }
 
   .main-box {
-    margin: auto;
     margin-bottom: 2rem;
+  }
+
+  .makers-box {
+    margin: auto;
   }
 }
 
