@@ -74,8 +74,9 @@ ul {
 
 h2 {
   font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
   margin: .5rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 1.5rem;
   color: #333;
 
@@ -85,6 +86,7 @@ h2 {
   background-color: #fff;
   padding: .7rem;
   border-radius: .7rem;
+  margin-bottom: 3rem;
 }
 
 main {
@@ -103,9 +105,26 @@ dt {
 .ingredients {
   list-style-type: circle;
 }
+.ingredients-box {
+  border-width: .5rem;
+  border-style: dashed;
+  border-color: #333;
+  margin-bottom: 3rem;
+}
+
+.ingredients-box h3 {
+  margin-top: .7rem;
+}
 
 .makers {
   text-align: center;
+}
+
+.makers-p {
+  padding: 0;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .img-ingredients1,
@@ -192,5 +211,30 @@ footer p {
 
   p {
     max-width: 25em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+  .ingredients-box {
+    max-width: 25em;
+  }
+
+  p,
+  makers-p {
+    text-align: center;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
