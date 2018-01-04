@@ -209,8 +209,14 @@ footer p {
     overflow: hidden;
   }
 
-  p {
+  .try {
     max-width: 25em;
+    margin: auto;
+  }
+
+  .ingredients-box {
+    max-width: 25em;
+    margin: auto;
   }
 }
 
@@ -226,15 +232,4 @@ footer p {
     margin: 0 0 1.4rem;
   }
 
-  .ingredients-box {
-    max-width: 25em;
-  }
-
-  p,
-  makers-p {
-    text-align: center;
-    margin: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
