@@ -285,9 +285,9 @@ footer p {
   }
   .ingredients-box {
     margin: auto;
-    width: 45%;
     float: left;
     margin-bottom: 2rem;
+    width: 100%;
   }
 
   .makers-box {
