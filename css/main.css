@@ -112,7 +112,7 @@ dt {
 .ingredients-box {
   border-width: .5rem;
   border-style: dashed;
-  border-color: #333;
+  border-color: #fff;
   margin-bottom: 3rem;
   padding: 1rem;
 }
@@ -188,6 +188,14 @@ dt {
 
 footer p {
   padding-left: 1rem;
+}
+
+.who-are-we {
+  max-width: 54em;
+  padding: 1em;
+  border-width: .2em;
+  border-style: solid;
+  border-color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
@@ -290,6 +298,10 @@ footer p {
     width: 100%;
   }
 
+  .main-box {
+    width: 45%;
+  }
+
   .makers-box {
     float: right;
     width: 45%;
@@ -310,6 +322,14 @@ footer p {
 
   html {
     font-size: 130%;
+  }
+
+  .main-box {
+    max-width: 40em;
+  }
+
+  .makers-box {
+    max-width: 40em;
   }
 
 }
