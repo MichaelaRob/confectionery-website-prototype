@@ -215,8 +215,8 @@ footer p {
   }
 
   .ingredients-box {
-    max-width: 25em;
     margin: auto;
+    max-width: 25em;
   }
 }
 
@@ -232,5 +232,35 @@ footer p {
     margin: 0 0 1.4rem;
   }
 
-  .try
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  ul li {
+    width: 25%;
+    float: left;
+  }
+
+  .img-ingredients1,
+  .img-ingredients2 {
+    max-width: 30em;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
 }
