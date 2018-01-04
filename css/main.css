@@ -210,8 +210,8 @@ footer p {
   }
 
   .try {
-    max-width: 25em;
     margin: auto;
+    margin-bottom: 3rem;
   }
 
   .ingredients-box {
@@ -232,4 +232,5 @@ footer p {
     margin: 0 0 1.4rem;
   }
 
+  .try
 }
