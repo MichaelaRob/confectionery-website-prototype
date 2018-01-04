@@ -196,6 +196,10 @@ footer p {
     margin: 0 0 1.3rem;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
   ul li {
     width: 50%;
     float: left;
@@ -256,11 +260,23 @@ footer p {
 
   .img-ingredients1,
   .img-ingredients2 {
-    max-width: 30em;
+    max-width: 27em;
   }
 
   h1 {
     font-size: 5rem;
   }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .img-ingredients1,
+  .img-ingredients2 {
+
 
 }
