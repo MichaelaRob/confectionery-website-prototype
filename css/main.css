@@ -120,6 +120,7 @@ dt {
 .ingredients {
   list-style-type: circle;
 }
+
 .ingredients-box {
   border-width: .5rem;
   border-style: dashed;
@@ -313,6 +314,7 @@ footer {
     width: 25%;
     float: left;
   }
+  
   .ingredients-box {
     margin: auto;
     float: left;
