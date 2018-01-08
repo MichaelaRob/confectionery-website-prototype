@@ -229,7 +229,7 @@ footer {
   color: #000;
 }
 
-.email a:hover {
+.email:hover {
   color: #f3c;
 }
 
