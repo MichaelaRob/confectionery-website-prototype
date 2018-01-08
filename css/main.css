@@ -223,6 +223,12 @@ footer {
   margin-bottom: 0;
 }
 
+.email {
+  text-decoration: none;
+  padding-left: .5em;
+  color: #000;
+}
+
 .email a:hover {
   color: #f3c;
 }
