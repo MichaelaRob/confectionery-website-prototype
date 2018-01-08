@@ -69,7 +69,7 @@ ul {
 }
 
 .nav a:hover {
-  background-color: #ff33cc;
+  background-color: #f3c;
 }
 
 h2 {
@@ -162,8 +162,8 @@ dt {
 }
 
 .button a:hover {
-  background-color: #ff33cc;
-  border-color: #ff33cc;
+  background-color: #f3c;
+  border-color: #f3c;
 }
 
 img {
